@@ -6,7 +6,7 @@ const { saveRedirectUrl } = require("../middleware.js");
 
 const userController = require ("../controllers/users.js");
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.redirect("/listings");
 });
 
